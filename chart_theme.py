@@ -48,7 +48,7 @@ colorSchemes = {
 }
 def data_theme():
 
-  latimesTheme = {
+  latimesTheme = {'config':{
   'background': '#ffffff',
 
   'title': {
@@ -77,7 +77,7 @@ def data_theme():
   },
 
   'axisX': {
-    'labelAngle': 0,
+    # 'labelAngle': 0,
     'labelPadding': 4,
     'tickSize': 3,
   },
@@ -87,10 +87,10 @@ def data_theme():
     'maxExtent': 45,
     'minExtent': 45,
     'tickSize': 2,
-    'titleAlign': 'left',
-    'titleAngle': 0,
-    'titleX': -45,
-    'titleY': -11,
+    # 'titleAlign': 'left',
+    # 'titleAngle': 0,
+    # 'titleX': -45,
+    # 'titleY': -11,
   },
 
   'legend': {
@@ -109,4 +109,5 @@ def data_theme():
     'ramp': colorSchemes['fire-7'],
   },
 }
+  }
   return latimesTheme
