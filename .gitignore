@@ -21,7 +21,7 @@ __pycache__/
 *.swp
 *.db
 dump.sql
-*.csv
+
 !MA_Hospitals.csv
 !us-states.json
 !Mass Census Block Housing Data from Cubit.csv
