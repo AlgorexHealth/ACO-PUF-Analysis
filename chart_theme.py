@@ -92,6 +92,9 @@ def data_theme():
     # 'titleX': -45,
     # 'titleY': -11,
   },
+  'facet': {
+    'spacing':5
+  },
 
   'legend': {
     'labelFont':labelFont,

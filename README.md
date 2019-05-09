@@ -18,7 +18,6 @@ cd ACO-PUF-Analysis
 To use this repository with Python installed on your machine you will need to install the associated packages. It is recommended  that you do this using a Python virtual environment.  
 
 
-
 From here create and initialize a virtual environment. 
 
 ```
@@ -46,4 +45,6 @@ docker-compose up
 ```
 
 Once the image is downloaded and runnning, (the image size is about 2gb so a little large). You should open a browser and got to [http://localhost:8888/lab](http://localhost:8888/lab) and you should be able to run the notebook there. 
+
+
 
